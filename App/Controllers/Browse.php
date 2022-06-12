@@ -23,8 +23,11 @@ class Browse extends \Core\Controller
     }
 
     public function browseAction(){
+        $listings = Listing::getAll();
         //echo "Hello from the index action in the Home controller";
-        View::render('Browse/browse.php');
+        View::render('Browse/browse.php', [
+            'listings' => $listings
+        ]);
 
 //        $listings = Listing::getAll();
 //
@@ -32,5 +35,6 @@ class Browse extends \Core\Controller
 //            'listings' => $listings
 //        ]);
     }
+    
 
 }

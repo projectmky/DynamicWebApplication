@@ -1,38 +1,4 @@
 
-.navbar {
-
-    background-color: rgb(27, 23, 37);
-    background-image: -moz-linear-gradient()
-}
-
-.navbar-brand {
-    color: white;
-    font-size: 26px;
-    text-align: justify;
-}
-
-.nav-link {
-    color: white;
-}
-
-.nav-item {
-    font-size: 26px;
-    margin-right: 13px;
-}
-
-.nav-image {
-    display: block;
-    padding-top: 2px;
-    width: 40px;
-    height: 40px;
-
-}
-
-.container{
-
-   
-}
-
 .carousel {
 
     align-content: center;
@@ -44,7 +10,7 @@
 
 .carousel-inner .carousel-item img {
     height: 500px;
-    width: 800px;
+    width: 700px;
 }
 
 .card{
@@ -56,3 +22,11 @@
 
 
 }
+.form-check .input,.label{
+display: inline;
+margin-left: 10px;
+border: 2px solid black;
+
+}
+    
+

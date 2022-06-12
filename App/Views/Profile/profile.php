@@ -5,4 +5,4 @@ use App\Authentication;
 
 ?>
 
-<h1>Profile page</h1>
+<!-- <h1>Profile page</h1> -->

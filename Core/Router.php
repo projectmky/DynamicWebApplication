@@ -6,6 +6,7 @@ class Router
 {
     #Associative array of routes (this is the routing table)
     protected $routes = [];
+    
     #Parameters from the matched route
     protected $params = [];
 

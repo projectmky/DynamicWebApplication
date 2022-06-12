@@ -1,9 +1,9 @@
 <?php
 //Database params
 define('DB_HOST', 'localhost');
-define('DB_USER', 'stefan');
-define('DB_PASS', 'secret');
-define('DB_NAME', 'carShare');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'carshare');
 
 //if true, errors will be displayed in the browser,
 //else they will be saved in a log file
@@ -13,7 +13,7 @@ define('SHOW_ERRORS', true);
 define('APPROOT', dirname(dirname(__FILE__)));
 
 //URLROOT (Dynamic Links)
-define('URLROOT', 'localhost/carShare');
+define('URLROOT', 'localhost/carshare');
 
 //Sitename
 define('SITENAME', 'Car Share');

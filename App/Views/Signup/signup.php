@@ -2,6 +2,7 @@
 <?php
 require '../App/Views/common/head.php';
 require '../App/Views/common/navigation.php';
+require '../App/Views/common/footer.php';
 
 if(!empty($user->errors)){
     echo "<p class='login-title'>Errors:</p>";

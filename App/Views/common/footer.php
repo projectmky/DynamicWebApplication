@@ -1,4 +1,10 @@
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"></div>
+            <p> <a href="/Terms/terms">Terms and Conditions</a></p>
+            <p> <a href="/Privacy/privacy">Privacy policy</a></p>
 
-<!-- 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="../../../public/css/style.css">-->
+        </div>
+    </div>
+</footer>
